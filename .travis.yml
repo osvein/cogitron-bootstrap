@@ -3,7 +3,10 @@
 	"os": "linux",
 	"dist": "bionic",
 	"arch": "amd64",
-	"before_install": "sudo apt-get -y install multistrap dpkg-dev make",
+	"before_install": [
+		"sudo apt-get -y install multistrap dpkg-dev make",
+		"sudo dpkg -i raspberrypi-archive-keyring_2016.10.31_all.deb raspbian-archive-keyring_20120528.2_all.deb"
+	],
 	"script": "make",
 	"deploy": {
 		"provider": "releases",
