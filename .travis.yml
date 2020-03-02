@@ -10,6 +10,8 @@
 	"script": "make",
 	"deploy": {
 		"provider": "releases",
-		"file": "cogitron.tar.bz2"
-	},
+		"api_key": {"secure": "NPY5KILVxsFxMOFGGgm7cAqZwZ+7Bk/qISD1CUBuGGIGazVM09jyjZvIOkqaKa5y2tMrmBvKs0pSPnlSDG0wPcWSgN9szcuLLITE4QD7kd1b2rACFIqPwF9sjTRFpJM2qK2nKdu56m91P+1yGJlxdHHhTc05KtS/rUSyMcGXqp3mM/g0m+e94qNUf/KnJMDai3alTGh3vZJB+zdN9ROZIZVoyxG1YrVwkbJgVDRWQigEhqNyNLDFJNO7qB8jnwtZot6m7/QEMZICg4677gZALCbEH+bL3NTwI67zwOIsDAFv724ICPvevCmX343ZE/IOniLeOdFPv6aJGWUvwE+TncPQnXjcSFxDsAC1tSz/Slf7N+BlMy6u2tY7PZ9nC2PqsMNiYh+IDPOJplkOs2X4uzgxSb1wXlIBgyMBkqKt/uotZCS3xn6LbEHLd61Q7T3iq6kzoAvrmk2wikXlM/Xg3mkFHdwUgcYRXloxbsCKKH3DKz+1sYEEZmDFA9vQobEdtm8pKV1Ntq0c1Kyuilxk6miPpJd0ZmO5qXqyakYrnXz/kWXiu24i6r/z2cU41JPKHft1R0wGbJP5X1FSNwi5rHEejvE8W1ST9fxKdW6drg0182q1BqEAHSWFlUBzNPpXZ8KnSX9RiXTm8NUjqH/QDwXh/tYmcXrJWv/xVPYlC90="},
+		"file": "cogitron.tar.bz2",
+		"on": {"repo": "osvein/cogitron-bootstrap"}
+	}
 }
