@@ -1,0 +1,11 @@
+# Video/Display
+hdmi_blanking=1
+ignore_lcd=1
+
+# Camera
+disable_camera_led=1
+
+# Boot
+start_x=1
+
+dtparam=i2s=on
