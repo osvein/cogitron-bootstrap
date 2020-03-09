@@ -8,7 +8,7 @@
 		"sudo dpkg -i raspberrypi-archive-keyring_2016.10.31_all.deb raspbian-archive-keyring_20120528.2_all.deb"
 	],
 	"script": "make",
-	"before_deploy": "gzip --fast cogitron.tar"
+	"before_deploy": "gzip --fast cogitron.tar",
 	"deploy": {
 		"provider": "releases",
 		"api_key": {"secure": "sIlJ9Qfxgs+zzsrZ7th4Sy2LjXZ9lHDq2EZMzODQ4CZpGiYPF9IfnLY4LX6/8tKgFm2DQ7Jj225YlzhPixpTi6+hAb4WKomrhgBKWRKMR0AH6Nxa+4j5CrpXICoQ0HXRS/HN8rxdOFqdzB2ogTbWwbSB5biLpFgNQcKg7/Ae+TGtMHdfE/r5dEng5TMgVBzohWSXME1AduTdOgpxIj2TnABl7C3aq1s5uXwWeCpda/zlNaZ/9+ViW47M0uizPb6CCcxgKj6xtcnYcIKNTCLPV/i7K8/I7gvkZZoVAqGEHh1g8bV8a0/nJtSxdssVyXzOkX4q5PElhC3m94VSIbxsEyHFPD43Z+RdIQaUTqsJy4nw9RpNdyqJsRFVL/k/CeduPU/P4/nwHoQqtqcjJkQOSF0cAexImZC3HEvC5iriEUAuO7jqewz9C5vScrrJsa5hhlWleISlco1ONSnXHKo1uIvqIkr3yaua5QG4KiMK/91cwL25NO+1b7bU6sk3smhc8TdfzxRLgTeK5OzxAxD74yJ+li6gxPgA88cvEQLhQTWCys2i84yI1Y7HMrbt1xwdIY07js3D/JMyrNrBUJFDf6NYDVSHLjv0zAW4u1SlZDB/j+8i+RrD6LwbWtS/T+Rpa5BUYEJbhG6V+c8OUefwN9llmf6O2cjZcDh5crat5ug="},
